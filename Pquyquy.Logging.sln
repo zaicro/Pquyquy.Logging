@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B95D4332-9D6B-44AA-ACE1-FC4489ABA9A2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		Nuget.config = Nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FE57E988-5225-401D-BBF1-EFAACAFF7EFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4A64163B-7E38-4F8C-93E3-A69FE6A8E7E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pquyquy.Logging", "src\Pquyquy.Logging\Pquyquy.Logging.csproj", "{F879D5DB-CABC-425B-B4B1-BA1EACA8829B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F879D5DB-CABC-425B-B4B1-BA1EACA8829B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F879D5DB-CABC-425B-B4B1-BA1EACA8829B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F879D5DB-CABC-425B-B4B1-BA1EACA8829B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F879D5DB-CABC-425B-B4B1-BA1EACA8829B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F879D5DB-CABC-425B-B4B1-BA1EACA8829B} = {FE57E988-5225-401D-BBF1-EFAACAFF7EFE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {440DC559-1CE5-47F2-B615-F063AA562B05}
+	EndGlobalSection
+EndGlobal
